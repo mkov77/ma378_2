@@ -1,0 +1,19 @@
+"0","from pins import board_folder"
+"0",""
+"0","# Assuming the board_folder has been set up correctly"
+"0","b = board_folder('data/model')"
+"0",""
+"0","# Pin the model file"
+"0","b.pin_upload('penguin_model.pkl', name='penguin_model')"
+"2","Writing pin:
+Name: 'penguin_model'
+Version: 20240313T204842Z-a65ed"
+"2","
+"
+"1","Meta(title='penguin_model: a pinned str object', description=None, created='20240313T204842Z', pin_hash='a65ed253f0558236', file='penguin_model.pkl', file_size=625, type='file', api_version=1, version=Version(created=datetime.datetime(2024, 3, 13, 20, 48, 42, 90292), hash='a65ed253f0558236'), tags=None, name='penguin_model', user={}, local={})
+"
+"0","app = VetiverAPI(v, check_prototype=True)"
+"2","Traceback (most recent call last):
+  File ""<string>"", line 1, in <module>
+NameError: name 'VetiverAPI' is not defined
+"

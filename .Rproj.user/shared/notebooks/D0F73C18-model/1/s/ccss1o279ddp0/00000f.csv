@@ -1,0 +1,7 @@
+"0","import pickle"
+"0",""
+"0","# Save the model to a file"
+"0","with open('penguin_model.pkl', 'wb') as file:"
+"0","    pickle.dump(model, file)"
+"0","    "
+"0",""

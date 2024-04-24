@@ -1,0 +1,8 @@
+"0","reticulate::repl_python()"
+"0","from vetiver import VetiverModel"
+"0","# Assuming 'model' is your trained model and 'X' is your feature data"
+"0","v = VetiverModel(model, model_name='penguin_model', prototype_data=X)"
+"2","Traceback (most recent call last):
+  File ""<string>"", line 1, in <module>
+NameError: name 'model' is not defined
+"

@@ -1,0 +1,15 @@
+from vetiver import VetiverModel, VetiverAPI
+from fastapi import FastAPI
+import pins
+
+# Load the model (assuming you're using pins)
+b = pins.board_folder('data/model', allow_pickle_read=True)
+v = VetiverModel.from_pin(b, 'penguin_model')
+
+# Create a FastAPI app
+app = VetiverAPI(v, check_prototype=True)
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run(app, host="0.0.0.0", port=8080)
+

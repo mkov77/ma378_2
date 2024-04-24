@@ -1,0 +1,9 @@
+"0","b.pin_upload('penguin_model.pkl', name='penguin_model')
+"
+"2","Writing pin:
+Name: 'penguin_model'
+Version: 20240313T204903Z-a65ed"
+"2","
+"
+"1","Meta(title='penguin_model: a pinned str object', description=None, created='20240313T204903Z', pin_hash='a65ed253f0558236', file='penguin_model.pkl', file_size=625, type='file', api_version=1, version=Version(created=datetime.datetime(2024, 3, 13, 20, 49, 3, 923471), hash='a65ed253f0558236'), tags=None, name='penguin_model', user={}, local={})
+"

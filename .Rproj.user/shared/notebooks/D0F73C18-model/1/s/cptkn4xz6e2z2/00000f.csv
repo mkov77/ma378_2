@@ -1,0 +1,14 @@
+"0","from pins import board_folder"
+"0",""
+"0","# Assuming the board_folder has been set up correctly"
+"0","b = board_folder('data/model')"
+"0",""
+"0","# Pin the model file"
+"0","b.pin_upload('penguin_model.pkl', name='penguin_model')"
+"2","Writing pin:
+Name: 'penguin_model'
+Version: 20240423T213952Z-a65ed"
+"2","
+"
+"1","Meta(title='penguin_model: a pinned str object', description=None, created='20240423T213952Z', pin_hash='a65ed253f0558236', file='penguin_model.pkl', file_size=625, type='file', api_version=1, version=Version(created=datetime.datetime(2024, 4, 23, 21, 39, 52, 803551), hash='a65ed253f0558236'), tags=None, name='penguin_model', user={}, local={})
+"
